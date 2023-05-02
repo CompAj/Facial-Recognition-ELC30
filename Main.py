@@ -8,7 +8,7 @@ from pycaw.pycaw import AudioUtilities, IAudioEndpointVolume
 import numpy as np
 
  
-cap = cv2.VideoCapture(1) #Checks for camera
+cap = cv2.VideoCapture(0) #Checks for camera
  
 mpHands = mp.solutions.hands #detects hand/finger
 hands = mpHands.Hands()   #complete the initialization configuration of hands
